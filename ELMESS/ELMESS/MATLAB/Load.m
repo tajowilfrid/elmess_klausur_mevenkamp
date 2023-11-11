@@ -1,0 +1,5 @@
+load RC_Ladung.mat
+t = U_C_Verlauf(:,1)
+u = U_C_Verlauf(:,2)
+plot(t,u,'o')
+par = [-0.1; 2; 1]
